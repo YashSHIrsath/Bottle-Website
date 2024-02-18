@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #171717;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+    color: #5A5A5A;
+}
+.container{
+    width:100%;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 90px;
+    width: 100%;
+    cursor: pointer;
+}
+.Logo{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right:40px ;
+}
+.navbuttons{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.navbutton{
+    padding: 9px 10px;
+    color: #5A5A5A;
+    font-weight: 600; 
+    transition : 0.2s;
+}
+.galary a{
+    color: #002aff;
+}
+.navbutton:hover{
+    transform: scale(1.04);
+    color: #E4E4E4;
+}
+
+.navbutton a:hover{
+    transform: scale(1.04);
+    color: white;
+}
+.Home{
+    margin-left: 30px;
+}
+
+.signup{
+    background: #434242;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 13px 47px;
+    border-radius: 25px;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+
+.signup:hover{
+    background-color: #5A5A5A;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.photo-gallary{
+    display: flex;  
+    justify-content: space-around;
+    
+    width: 95%;
+    overflow: hidden;
+}
+.two-photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+.two-photos img{
+    width: 80%;
+    height: 100%;
+    
+}
+.two-photos img:nth-child(1){
+    margin-bottom: 30px;
+}
+.one-photo{
+    
+    width: 50%;
+    height: 70%;
+}
+.one-photo img{
+    width: 86%;
+    height: 70%;
+    
+}
+.photo-gallary-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.photo-gallary-2 img{
+    width: 84.5%;
+    transform: translateX(-6px);
+    
+}
+
+.container7{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.contact{
+    margin-top: 80px;
+}
+.contact .icons{
+    margin-top: 10px;
+}
+.contact .icons ion-icon{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.contact .detail{
+    margin-top: 30px;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    background-color: #E4E4E4;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    margin-top: 80px;
+    overflow: hidden;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+.product-image:hover{
+    background-color: #393939;
+}
+.product-image img{
+    transition: 0.5s;
+}
+.product-image:hover img{
+    transform: scale(1.09);
+    transform: translateY(-16px) ;
+    
+}
+.product-image img{
+    margin-top: 60px;
+}
+
+.pages{
+    margin-top: 70px;
+}
+.pages p{
+    margin-top: 10px;
+}
+.pages a{
+    text-decoration: none;
+    color: #393939;
+}
+.address{
+    margin-top: 80px;
+}
+.address p:nth-child(1){
+    font-weight: 900;
+}
+.address p{
+    width: 418px;
+}
+.address img{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 15vh;
+    background-color: #fff;
+}
+
+.credits .end{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #868686;
+}
+.credits .end p{
+    margin-top: 20px;
+}
+.credits  p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.credits  p ion-icon{
+    padding: 0px 30px ;
+}
+.credits .end p span{
+    font-weight: 900;
+}
